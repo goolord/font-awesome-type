@@ -740,12 +740,14 @@ data FontAwesome
   | FaUser                                 -- ^ icon fa-user
   | FaUserCircle                           -- ^ icon fa-user-circle 4.7
   | FaUserCircleO                          -- ^ icon fa-user-circle-o 4.7
+  | FaUserCog                              -- ^ icon fa-user-cog
   | FaUserMd                               -- ^ icon fa-user-md
   | FaUserO                                -- ^ icon fa-user-o 4.7
   | FaUserPlus                             -- ^ icon fa-user-plus 4.3
   | FaUserSecret                           -- ^ icon fa-user-secret 4.3
   | FaUserTimes                            -- ^ icon fa-user-times 4.3
   | FaUsers                                -- ^ icon fa-users
+  | FaUsersCog                             -- ^ icon fa-users-cog
   | FaVcard                                -- ^ icon alias fa-vcard (see 'FaAddressCard') 4.7
   | FaVcardO                               -- ^ icon alias fa-vcard-o (see 'FaAddressCardO') 4.7
   | FaVenus                                -- ^ icon fa-venus 4.3
@@ -1530,12 +1532,14 @@ fontAwesomeClass = \case
   FaUser                                 -> "fa-user"
   FaUserCircle                           -> "fa-user-circle"
   FaUserCircleO                          -> "fa-user-circle-o"
+  FaUserCog                              -> "fa-user-cog"
   FaUserMd                               -> "fa-user-md"
   FaUserO                                -> "fa-user-o"
   FaUserPlus                             -> "fa-user-plus"
   FaUserSecret                           -> "fa-user-secret"
   FaUserTimes                            -> "fa-user-times"
   FaUsers                                -> "fa-users"
+  FaUsersCog                             -> "fa-users-cog"
   FaVcard                                -> "fa-vcard"
   FaVcardO                               -> "fa-vcard-o"
   FaVenus                                -> "fa-venus"
@@ -2321,12 +2325,14 @@ fontAwesomeChar = \case
   FaUser                                 -> '\xf007'
   FaUserCircle                           -> '\xf2bd'
   FaUserCircleO                          -> '\xf2be'
+  FaUserCog                              -> '\xf4fe'
   FaUserMd                               -> '\xf0f0'
   FaUserO                                -> '\xf2c0'
   FaUserPlus                             -> '\xf234'
   FaUserSecret                           -> '\xf21b'
   FaUserTimes                            -> '\xf235'
   FaUsers                                -> '\xf0c0'
+  FaUsersCog                             -> '\xf509'
   FaVcard                                -> '\xf2bb'
   FaVcardO                               -> '\xf2bc'
   FaVenus                                -> '\xf221'
